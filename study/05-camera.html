@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="05-camera.css" />
+		<head>
+		<script type="importmap">
+				{
+					"imports": {
+						"three": "https://unpkg.com/three@0.138.0/build/three.module.js",
+						"OrbitControls": "https://unpkg.com/three@0.138.0/examples/jsm/controls/OrbitControls.js",
+						"dat" : "https://r105.threejsfundamentals.org/threejs/../3rdparty/dat.gui.min.js"
+					}
+				}
+			</script>
+		</head>
+		<script type="module" src="05-camera.js" defer></script>
+		<title>Threejs</title>
+	</head>
+	<body>
+		<canvas id ="c"></canvas>
+			<div id="info"></div>
+		<div class="split">
+			<div id="view1" tabindex="1"></div>
+			<div id="view2" tabindex="2"></div>
+		</div>
+	</body>
+</html>
