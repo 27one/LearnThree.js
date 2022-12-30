@@ -6,7 +6,7 @@ class App {
 		this._divContainer = divContainer;
 
 		const renderer = new THREE.WebGLRenderer({ antialias: true });
-		renderer.setPixelRatio(window.devicePixelRatio);
+		// renderer.setPixelRatio(window.devicePixelRatio);
 		divContainer.appendChild(renderer.domElement);
 		this._renderer = renderer;
 
